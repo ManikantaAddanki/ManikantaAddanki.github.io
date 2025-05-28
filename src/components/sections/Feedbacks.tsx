@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+mport { motion } from "framer-motion";
 
 import { styles } from "../../constants/styles";
 import { fadeIn } from "../../utils/motion";
@@ -34,7 +34,7 @@ import { config } from "../../constants/config";
 
         <img
           src={image}
-          alt={`feedback_by-${name}`}
+          alt={feedback_by-${name}}
           className="h-10 w-10 rounded-full object-cover"
         />
       </div>
@@ -46,12 +46,12 @@ const Feedbacks = () => {
   return (
     <div className="bg-black-100 mt-12 rounded-[20px]">
       <div
-        className={`${styles.padding} bg-tertiary min-h-[300px] rounded-2xl`}
+        className={${styles.padding} bg-tertiary min-h-[300px] rounded-2xl}
       >
         <Header useMotion={true} {...config.sections.feedbacks} />
       </div>
       <div
-        className={`${styles.paddingX} -mt-20 flex flex-wrap gap-7 pb-14 max-sm:justify-center`}
+        className={${styles.paddingX} -mt-20 flex flex-wrap gap-7 pb-14 max-sm:justify-center}
       >
         
       </div>
